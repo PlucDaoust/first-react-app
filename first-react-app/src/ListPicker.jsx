@@ -1,5 +1,6 @@
 export default function ListPicker({ values }) {
     const randIdx = Math.floor(Math.random() * values.lenght);
+    
     const randElement = values[randIdx];
     console.log(randIdx)
     return (
